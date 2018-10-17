@@ -1,6 +1,6 @@
 //Problem 9. Palidrome Number https://leetcode.com/problems/palindrome-number/description/
 
-class Solution {
+class Palindrome {
     public boolean isPalindrome(int x) {
         if(x<0){
             return false;
