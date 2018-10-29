@@ -1,7 +1,7 @@
 //136. Single Number https://leetcode.com/problems/single-number/description/
 class FindSingleNumber {
-//List Method
-//     public int singleNumber(int[] nums) {
+     public int singleNumber(int[] nums) {
+//List method
 //         List<Integer> list = new ArrayList<>();
 //         for(int num : nums){
 //             if(list.contains(num)){
@@ -11,14 +11,12 @@ class FindSingleNumber {
 //             }
 //         }
 //         return list.get(0);
-//     }
-
-//XorAns method
-    public int singleNumber(int[] nums) {
+         
+//Xor method
         int xorAns = 0;
         for(int num : nums){
             xorAns ^= num;
         }
         return xorAns;
-    }
+     }
 }
