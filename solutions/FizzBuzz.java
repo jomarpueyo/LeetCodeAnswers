@@ -1,4 +1,4 @@
-412. Fizz Buzz https://leetcode.com/problems/fizz-buzz/description/
+//412. Fizz Buzz https://leetcode.com/problems/fizz-buzz/description/
 
 class FizzBuzz {
     public List<String> fizzBuzz(int n) {
